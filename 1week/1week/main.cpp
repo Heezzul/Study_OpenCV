@@ -5,11 +5,11 @@ using namespace cv;
 
 int main() {
 
-	Mat imgColor = imread("C:/test.jpg", IMREAD_COLOR); //ÆÄÀÏÀÇ Àı´ë°æ·Î¸¦ ÁöÁ¤ÇÏ°í »öÀ» °¡Áö¸é¼­ imgColor¿¡ ÇÒ´ç 
-	Mat imgGray = imread("C:/test.jpg", IMREAD_GRAYSCALE); //ÀÌ¹ÌÁö¸¦ È¸»öÀ¸·Î imgGray¿¡ ÇÒ´ç 
+	Mat imgColor = imread("test.jpg", IMREAD_COLOR); //íŒŒì¼ì˜ ì ˆëŒ€ê²½ë¡œë¥¼ ì§€ì •í•˜ê³  ìƒ‰ì„ ê°€ì§€ë©´ì„œ imgColorì— í• ë‹¹ 
+	Mat imgGray = imread("test.jpg", IMREAD_GRAYSCALE); //ì´ë¯¸ì§€ë¥¼ íšŒìƒ‰ìœ¼ë¡œ imgGrayì— í• ë‹¹ 
 
-	imshow("color", imgColor); //imgColorÀ» colorÀÇ ÀÌ¸§ÀÇ »õ·Î¿î Ã¢À¸·Î º»´Ù
-	imshow("gray", imgGray);//imgGrayÀ» grayÀÇ ÀÌ¸§ÀÇ »õ·Î¿î Ã¢À¸·Î º»´Ù
+	imshow("color", imgColor); //imgColorì„ colorì˜ ì´ë¦„ì˜ ìƒˆë¡œìš´ ì°½ìœ¼ë¡œ ë³¸ë‹¤
+	imshow("gray", imgGray);//imgGrayì„ grayì˜ ì´ë¦„ì˜ ìƒˆë¡œìš´ ì°½ìœ¼ë¡œ ë³¸ë‹¤
 
 	
 	waitKey(5000);
